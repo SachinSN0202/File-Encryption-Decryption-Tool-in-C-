@@ -1,0 +1,32 @@
+Encryption is the process of changing readable information into a secret code so that no one else can understand it except the intended person.
+Example:
+HELLO → X7#K9
+
+
+Decryption is the process of changing the secret code back into readable information so the original message can be understood.
+
+Example:
+X7#K9 → HELLO
+
+
+Caesar Cipher encryption technique
+
+Caesar Cipher is a simple encryption technique where each letter in a message is shifted forward by a fixed number of positions in the alphabet.
+You choose a number called a key (shift).
+
+Example: Shift = 3
+
+A → D
+
+B → E
+
+C → F
+
+So the word:
+
+HELLO → KHOOR
+
+HELLO → KHOOR → Encryption   C = (P + Shift) mod 26
+
+
+KHOOR → HELLO → Decryption   P = (C − Shift) mod 26
